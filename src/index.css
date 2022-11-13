@@ -1,3 +1,10 @@
+:root {
+  --appBlue: #5c87db;
+  --darkBlue: #3e67b7;
+  --appWhite: #fff;
+  --appGray: #b7bac1;
+}
+
 html,
 body {
   width: 100%;

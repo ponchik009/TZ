@@ -1,0 +1,25 @@
+.topSide {
+  background: var(--appBlue);
+  border-radius: 15px 15px 0px 0px;
+  padding: 17px 30px 30px 30px;
+
+  display: flex;
+  gap: 24px;
+}
+
+.bottomSide {
+  background: var(--appWhite);
+
+  display: flex;
+  justify-content: flex-end;
+
+  padding: 23px 30px;
+  border-radius: 0px 0px 15px 15px;
+  box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+}
+
+@media screen and (max-width: 1100px) {
+  .topSide {
+    flex-direction: column;
+  }
+}
