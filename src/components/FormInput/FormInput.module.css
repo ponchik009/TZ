@@ -1,0 +1,10 @@
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.error {
+  color: red;
+  margin-left: 4px;
+}
