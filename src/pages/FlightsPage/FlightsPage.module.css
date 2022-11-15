@@ -1,0 +1,38 @@
+.tickets {
+  display: flex;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+  border-radius: 15px;
+
+  /* max-height: 330px; */
+
+  height: fit-content;
+  width: fit-content;
+}
+
+.tickets__destinations {
+  display: flex;
+  flex-direction: column;
+
+  height: fit-content;
+}
+
+.tickets__delimeter {
+  border: 1px solid #dde3ee;
+}
+
+.tickets__price {
+  padding: 0 31px 0 46px;
+
+  margin: auto 0;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+
+  text-align: center;
+
+  color: #232323;
+}

@@ -22,7 +22,7 @@ export const searchSlice = createSlice({
   reducers: {
     setSearchState: (state, action: PayloadAction<IFormData>) => {
       state.from = action.payload.from;
-      state.to = action.payload.from;
+      state.to = action.payload.to;
       state.dateStart = new Date(action.payload.dateStart);
       state.dateEnd = action.payload.dateEnd
         ? new Date(action.payload.dateEnd)
